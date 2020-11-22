@@ -46,7 +46,7 @@ end
 
 def find_a(array)
   array.select do |i|
-      i[0] = "a"
+      i[0] == "a"
   end
 end
 
